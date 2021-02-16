@@ -1,0 +1,23 @@
+:root {
+    --font-family: 'Arial'; 
+    --font-size: 14px;
+    --primary: #676A6C;
+    --secondary: #0072F0;
+    --border-radius: 12px;
+    --border-style: 1px solid var(--primary);
+    --box-shadow: 0 -2px 8px 0 var(--primary);
+    --triangular-bullet: '\2023';
+    --black-star: '\2605';
+    /* --triangular-bullet: '&#8227'; */
+    /* --black-star: '&#9733'; */
+}
+
+* {
+    font-family: gibson-regular,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--font-size);
+}
