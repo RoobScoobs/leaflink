@@ -1,3 +1,3 @@
 export * from './user.js';
-export * from './gallery.js';
+export * from './listener.js';
 export * from './service/getUsers.js';
